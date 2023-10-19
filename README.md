@@ -4,4 +4,4 @@
 
 **Official code for "Learning to Sample Tasks for Meta Learning"**
 
-🎁We currently only provide the code for metaASr, all files and implementation details will be provided after the paper is published.
+🎁We currently only provide **metaASr.py**, all files and implementation details will be provided after the paper is published.
