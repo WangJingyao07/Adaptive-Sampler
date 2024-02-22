@@ -1,0 +1,1 @@
+POOL_SUPPORTED = False
