@@ -45,6 +45,35 @@ Now, you have completed all the settings, just directly train and test as you wa
 
 
 ## Train
+details will be provided after the paper is published.
+
+
+## Test
+details will be provided after the paper is published.
+
+
+## Analysis
+details will be provided after the paper is published.
+
+
+## View Results
+details will be provided after the paper is published.
+
+
+
+## Citation
+If you find our work and codes useful, please consider citing our paper and star our repository (🥰🎉Thanks!!!):
+```
+@misc{wang2023learning,
+      title={Learning to Sample Tasks for Meta Learning}, 
+      author={Jingyao Wang and Zeen Song and Xingzhe Su and Lingyu Si and Hongwei Dong and Wenwen Qiang and Changwen Zheng},
+      year={2023},
+      eprint={2307.08924},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+(arXiv version, the final version will be updated after the paper is published)
 
 
 
