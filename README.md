@@ -45,21 +45,21 @@ Now, you have completed all the settings, just directly train and test as you wa
 
 
 ## Train
-details will be provided after the paper is published.
+
+will be updated soon...
 
 
 ## Test
-details will be provided after the paper is published.
 
+will be updated soon...
 
 ## Analysis
-details will be provided after the paper is published.
 
+will be updated soon...
 
 ## View Results
-details will be provided after the paper is published.
 
-
+will be updated soon...
 
 ## Citation
 If you find our work and codes useful, please consider citing our paper and star our repository (🥰🎉Thanks!!!):
