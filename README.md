@@ -1,4 +1,4 @@
-# Adaptive-Sampler
+# Awesome Task Sampling for Meta-Learning. 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 ![Static Badge](https://img.shields.io/badge/Meta_Learning-Task_Sampling-blue)
 ![Static Badge](https://img.shields.io/badge/to_be_continue-orange)
