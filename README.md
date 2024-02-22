@@ -6,7 +6,7 @@
 
 **Official code for "Learning to Sample Tasks for Meta Learning"**
 
-🥇🌈This repository contains not only our adaptive sampler, but also PyTorch implementation of previous samplers. 
+🥇🌈This repository contains not only our adaptive sampler, but also PyTorch implementation of previous samplers (Provide in the **Citation**). 
 
 ## Create Environment
 
