@@ -1,9 +1,21 @@
-
-
 from __future__ import print_function
 import numpy as np
 import sys
 import tensorflow as tf
+import torch
+
+from collections import OrderedDict
+from torch.utils.data import DataLoader
+from torch.utils.data.dataloader import default_collate
+from torch.utils.data.dataset import Dataset as TorchDataset
+
+from torchmeta.utils.data.dataset import CombinationMetaDataset
+import random
+import warnings
+from torch.utils.data.sampler import RandomSampler
+import ast
+from itertools import combinations
+from itertools import chain
 
 try:
     import special_grads
@@ -59,7 +71,6 @@ class MAMLWithASr:
         else:
             raise ValueError('Unrecognized data source.')
 
-    import torch
 
     # Define ASr Task Diversity Calculation
     def calculate_task_diversity(self, inputa, labela):
