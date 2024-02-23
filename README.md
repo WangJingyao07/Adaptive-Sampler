@@ -41,7 +41,7 @@ All data sets used in this work are open source. The download and deployment way
 
 * For the few-shot-regression setting, Sinusoid, Sinusoid & Line, and Harmonic dataset are toy examples and require no downloads. Just follow the implementation in the paper.
 
-Now, you have completed all the settings, just directly train and test as you want!!!
+Now, you have completed all the settings, just directly train and test as you want :)
 
 
 ## Train
