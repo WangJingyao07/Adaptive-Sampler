@@ -31,7 +31,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Data availability
+## Data Availability
 
 All data sets used in this work are open source. The download and deployment ways are as follows:
 ​
