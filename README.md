@@ -46,12 +46,33 @@ Now, you have completed all the settings, just directly train and test as you wa
 
 ## Train
 
-will be updated soon...
+We offer two ways to run our code (Take [`MAML`](MAML) with [`meta-dataset`](meta-dataset) as an example):
 
+**Way 1:** Train all samplers and models in a parallel fashion using the carefully organized [`scripts`](scripts), which is as follows:
+
+```bash
+sbatch scripts/MAML/Train/train_maml_<dataset>_all_samplers.sh
+```
+
+**Way 2:** Directly write:
+
+```bash
+python -m src.main --exp_name maml_meta_dataset --train --runs 1 --folder $SLURM_TMPDIR/records --task_sampler $SLURM_ARRAY_TASK_ID --dataset meta_dataset --num-ways 5 --num-shots 1 --use-cuda --num-steps 5 --step-size 0.4 --meta-lr 0.001 --batch-size 16 --num-workers 0 --num-epochs 150 --num-adaptation-steps 5 --output-folder ./config/maml_meta_dataset_try_3/$SLURM_ARRAY_TASK_ID/
+```
 
 ## Test
 
-will be updated soon...
+Similarly, all the models can be tested on a fixed set of tasks in a parallel fashion as follows:
+
+```bash
+sbatch scripts/MAML/Test/test_maml_<dataset>_all_samplers.sh
+```
+
+or
+
+```bash
+python -m src.main --exp_name test_maml_meta_dataset --log-test-tasks --runs 1 --folder $SLURM_TMPDIR/records --task_sampler $SLURM_ARRAY_TASK_ID --dataset meta_dataset --num-ways 5 --num-shots 1 --use-cuda --num-steps 5 --step-size 0.4 --meta-lr 0.001 --batch-size 1 --num-workers 0 --num-epochs 150 --output-folder ./config/maml_meta_dataset_try_2/$SLURM_ARRAY_TASK_ID/
+```
 
 ## Analysis
 
