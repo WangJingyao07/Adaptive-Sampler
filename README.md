@@ -46,7 +46,7 @@ Now, you have completed all the settings, just directly train and test as you wa
 
 ## Train
 
-We offer two ways to run our code (Take [`MAML`](MAML) with [`meta-dataset`](meta-dataset) as an example):
+We offer two ways to run our code (Take [`MAML`](scripts/MAML) with [`meta-dataset`](scripts/MAML/Train/train_maml_metadataset_all_samplers.sh) as an example):
 
 **Way 1:** Train all samplers and models in a parallel fashion using the carefully organized [`scripts`](scripts), which is as follows:
 
