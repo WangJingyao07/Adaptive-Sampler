@@ -74,13 +74,19 @@ or
 python -m src.main --exp_name test_maml_meta_dataset --log-test-tasks --runs 1 --folder $SLURM_TMPDIR/records --task_sampler $SLURM_ARRAY_TASK_ID --dataset meta_dataset --num-ways 5 --num-shots 1 --use-cuda --num-steps 5 --step-size 0.4 --meta-lr 0.001 --batch-size 1 --num-workers 0 --num-epochs 150 --output-folder ./config/maml_meta_dataset_try_2/$SLURM_ARRAY_TASK_ID/
 ```
 
-## Analysis
+## View Results and Analysis
 
-will be updated soon...
+To collect statistics and view results, the corresponding code are also provide, run:
 
-## View Results
+```bash
+python -m src.analysis.py <path_to_task_json> -O <path_to_output_json>
+```
 
-will be updated soon...
+or 
+
+Uncomment the `print` in the code.
+
+In addition, if you are drawing pictures, such as line charts, bar charts, or scatter charts, you can refer to [draw-Figures](https://github.com/WangJingyao07/draw-Figures) =)
 
 
 ## Citation
