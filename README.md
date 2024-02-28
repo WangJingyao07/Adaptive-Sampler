@@ -3,7 +3,7 @@
 ![Static Badge](https://img.shields.io/badge/Meta_Learning-Task_Sampling-blue)
 ![Static Badge](https://img.shields.io/badge/to_be_continue-orange)
 ![Stars](https://img.shields.io/github/stars/WangJingyao07/Adaptive-Sampler)
-
+![pv](https://pageview.vercel.app/?github_user=WangJingyao07/Adaptive-Sampler)
 [![GitHub views](https://raw.githubusercontent.com/WangJingyao07/Adaptive-Sampler/views.svg)
 
 
