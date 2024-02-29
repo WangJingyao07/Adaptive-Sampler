@@ -6,7 +6,7 @@
 ![Repo Clones](https://img.shields.io/badge/Clones-41-blue)
 ![Stars](https://img.shields.io/github/stars/WangJingyao07/Adaptive-Sampler)
 
-**Official code for "Learning to Sample Tasks for Meta Learning"**
+**Official code for "Towards Task Sampler Learning for Meta-Learning"**
 
 🥇🌈This repository contains not only our adaptive sampler, but also PyTorch implementation of previous samplers (Provide in the **Citation**). 
 
