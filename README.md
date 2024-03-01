@@ -94,10 +94,10 @@ In addition, if you are drawing pictures, such as line charts, bar charts, or sc
 ## Citation
 If you find our work and codes useful, please consider citing our paper and star our repository (🥰🎉Thanks!!!):
 ```
-@misc{wang2023learning,
-      title={Learning to Sample Tasks for Meta Learning}, 
-      author={Jingyao Wang and Zeen Song and Xingzhe Su and Lingyu Si and Hongwei Dong and Wenwen Qiang and Changwen Zheng},
-      year={2023},
+@misc{wang2024task,
+      title={Towards Task Sampler Learning for Meta-Learning}, 
+      author={Jingyao Wang and Wenwen Qiang and Xingzhe Su and Changwen Zheng and Fuchun Sun and Hui Xiong},
+      year={2024},
       eprint={2307.08924},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
