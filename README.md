@@ -3,7 +3,7 @@
 ![Static Badge](https://img.shields.io/badge/Meta_Learning-Task_Sampling-blue)
 ![Static Badge](https://img.shields.io/badge/to_be_continue-orange)
 ![pv](https://pageview.vercel.app/?github_user=WangJingyao07/Adaptive-Sampler)
-![Repo Clones](https://img.shields.io/badge/Clones-41-blue)
+![Repo Clones](https://img.shields.io/badge/Clones-45-blue)
 ![Stars](https://img.shields.io/github/stars/WangJingyao07/Adaptive-Sampler)
 
 **Official code for "Towards Task Sampler Learning for Meta-Learning"**
