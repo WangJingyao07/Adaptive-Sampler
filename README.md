@@ -103,7 +103,7 @@ If you find our work and codes useful, please consider citing our paper and star
       primaryClass={cs.LG}
 }
 ```
-(arXiv version, the final version will be updated after the paper is published)
+(arXiv version, the final version will be updated after the paper is published.)
 
 
 
