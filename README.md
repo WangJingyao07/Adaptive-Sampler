@@ -2,6 +2,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 ![Static Badge](https://img.shields.io/badge/Meta_Learning-Task_Sampling-blue)
 ![Static Badge](https://img.shields.io/badge/to_be_continue-orange)
+![Static Badge](https://img.shields.io/badge/IJCV-yellow)
 ![pv](https://pageview.vercel.app/?github_user=WangJingyao07/Adaptive-Sampler)
 ![Repo Clones](https://img.shields.io/badge/Clones-52-blue)
 ![Stars](https://img.shields.io/github/stars/WangJingyao07/Adaptive-Sampler)
@@ -94,16 +95,16 @@ In addition, if you are drawing pictures, such as line charts, bar charts, or sc
 ## Citation
 If you find our work and codes useful, please consider citing our paper and star our repository (🥰🎉Thanks!!!):
 ```
-@misc{wang2024task,
-      title={Towards Task Sampler Learning for Meta-Learning}, 
-      author={Jingyao Wang and Wenwen Qiang and Xingzhe Su and Changwen Zheng and Fuchun Sun and Hui Xiong},
-      year={2024},
-      eprint={2307.08924},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{wang2024towards,
+  title={Towards Task Sampler Learning for Meta-Learning},
+  author={Wang, Jingyao and Qiang, Wenwen and Su, Xingzhe and Zheng, Changwen and Sun, Fuchun and Xiong, Hui},
+  journal={International Journal of Computer Vision},
+  pages={1--31},
+  year={2024},
+  publisher={Springer}
 }
 ```
-(arXiv version, the final version will be updated after the paper is published.)
+
 
 
 
