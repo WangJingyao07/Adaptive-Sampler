@@ -9,7 +9,7 @@
 
 **Official code for "Towards Task Sampler Learning for Meta-Learning"**
 
-🥇🌈This repository contains not only our adaptive sampler, but also PyTorch implementation of previous samplers (Provide in the **Citation**). 
+🥇🌈This repository contains not only our adaptive sampler, but also PyTorch implementation of previous samplers. 
 
 ## Create Environment
 
