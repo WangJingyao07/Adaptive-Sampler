@@ -92,7 +92,7 @@ Uncomment the `print` in the code.
 In addition, if you are drawing pictures, such as line charts, bar charts, or scatter charts, you can refer to [draw-Figures](https://github.com/WangJingyao07/draw-Figures) =)
 
 
-## Citation
+## Cite
 If you find our work and codes useful, please consider citing our paper and star our repository (🥰🎉Thanks!!!):
 ```
 @article{wang2024towards,
